@@ -1,0 +1,95 @@
+.{
+    margin:0;
+    padding:0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: rgb(24, 0, 49);
+}
+
+.container{
+    position:relative;
+    width:1100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    padding:30px;
+    top:180px;
+}
+
+.container .mycard{
+    position:relative;
+    max-width:300px;
+    height:150px;
+    background: rgb(251, 232, 195);
+    margin:30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction:column;
+    box-shadow: 0px 3px 50px rgba(0,0,0,0.5);
+    transition: 0.4s ease-in-out;
+}
+
+.container .mycard:hover{
+    height:300px;
+
+
+}
+
+.container .mycard .cing{
+    position: relative;
+    width:260px;
+    height:200px;
+    top:-60px;
+    left:20px;
+    z-index:1;
+    box-shadow: 0px 3px 50px rgba(0,0,0,0.5);
+    
+}
+
+.container .mycard .cing img{
+    max-width:100%;
+    height:100%;
+    border-radius: 6px;
+    
+}
+
+.container .mycard .cdetail{
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align:center;
+    color:rgb(39, 39, 39);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    visibility: hidden;
+    opacity:0;
+    transition:0.4s ease-in-out;
+ 
+    
+}
+
+.container .mycard:hover .cdetail{
+    visibility: visible;
+    opacity:1;
+    margin-top: -50px;
+
+ 
+    
+}
+
+.mycard .two{
+    height:240px;
+}
+
+
+
+
+
+
+
+

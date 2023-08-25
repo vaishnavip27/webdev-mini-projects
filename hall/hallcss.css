@@ -1,0 +1,410 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow:hidden;
+    padding: 0;
+    margin:0;
+
+}
+
+*{
+    position:absolute;
+}
+body{
+    background-color: black;
+}
+.box{
+    height:80%;
+    width:60%;
+    overflow:hidden;
+    background-color: rgb(14, 214, 236);
+    margin-left: 280px;
+    margin-top: 70px;  
+}
+.base{
+    height: 30%;
+    width: 100%;
+    background-color:rgb(185, 185, 185);
+    top:480px;
+}
+.v-wall{
+    height:100%;
+    width:22%;
+    background-color: white;
+    left:120px;
+    bottom:128px;
+}
+.v-inner-wall{
+    height:100%;
+    width:55%;
+    background-color: rgb(203, 203, 233);
+    left:43px;
+}
+.v-line-1{
+    height:100%;
+    width:4.5%;
+    background-color: rgb(203, 203, 233);
+    left:22px;
+}
+.v-line-2{
+    height: 100%;
+    width: 5.3%;
+    background-color:rgb(203, 203, 233);
+    left:165px;
+}
+.fire-place{
+    height:24%;
+    width:35%;
+    background-color:rgb(172, 172, 237) ;
+    top:335px;
+    left:65px;
+}
+.inner-fireplace{
+    height:92%;
+    width:85%;
+    background-color:rgb(203, 203, 233) ;
+    top:12px;
+    left:22px;
+}
+.black-box{
+    height:85%;
+    width:65%;
+    background-color: rgb(37, 31, 31);
+    left:50px;
+    top:22px;
+}
+.red{
+    width:80px;
+    height:80px;
+    background-color: orangered;
+    left:60px;
+    top:44px;
+}
+.orange{
+    width:60px;
+    height:60px;
+    background-color: orange;
+    left:70px;
+    top:63px;
+}
+.gold{
+    width:45px;
+    height:45px;
+    background-color: gold;
+    left:78px;
+    top:78px;
+}
+.white{
+    width:35px;
+    height:35px;
+    background-color: lightyellow;
+    left:83px;
+    top:88px;
+}
+.flame{
+    bottom:0;
+    position:absolute;
+    border-radius: 50% 0% 50% 50%;
+    transform:rotate(-45deg);
+}
+.flame-wrapper{
+    position: relative;
+}
+.picture{
+    width:130px;
+    height: 79px;
+    background-color: brown;
+    top:90px;
+    left:153px;
+}
+.inner-picture{
+    width: 115px;
+    height: 70px;
+    background-color: skyblue;
+    top:4px;
+    left:6px;
+}
+.mountain-1{
+    width:10;
+    height:0;
+    border-left: 25px solid transparent;
+    border-right: 55px solid transparent;
+    border-bottom: 50px solid green;
+    top: 21px;
+}
+.mountain-2{
+    width:0px;
+    height:0;
+    border-left: 25px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 50px solid green;
+    left:60px;
+    top:21px;
+}
+.sun{
+    height:20px;
+    width: 20px;
+    background-color: gold;
+    border-radius: 50%;
+    top:6px;
+    left: 40px;
+}
+.stand{
+    height:8px;
+    width:200px;
+    background-color: rgb(179, 92, 60);
+    top:250px;
+    left:400px;
+}
+.inner-stand{
+    height:8px;
+    width:160px;
+    background-color: rgb(149, 63, 30);
+    left: 19px;
+    top:6px;
+    
+}
+.book-1{
+    height:50px;
+    width:20px;
+    background-color: aqua;
+    left:410px;
+    top: 200px;
+}
+.book-2{
+    height:50px;
+    width:20px;
+    background-color: lightpink;
+    left:435px;
+    top: 200px;
+}
+.book-3{
+    height:50px;
+    width:20px;
+    background-color: plum;
+    left:458px;
+    top: 200px;
+}
+.book-4{
+    height:50px;
+    width:20px;
+    background-color: gold;
+    left:482px;
+    top: 200px;
+}
+.pot{
+     border-bottom: 35px solid white;
+     border-left:5px solid transparent;
+     border-right: 5px solid transparent;
+     height:0;
+     width: 30px;
+     top:215px;
+     left:535px;
+     transform: rotate(180deg);
+
+}
+.pot-upper{
+    height:10px;
+    width:49px;
+    background-color: white;
+    top:205px;
+    left:530px;
+}
+.stem{
+    height: 40px;
+    width: 3px;
+    background-color: rgb(61, 27, 1);
+    left:550px;
+    top:165px;
+    border-radius:2px;
+}
+.leaf-1{
+    width:20px;
+    height:20px;
+    border-radius: 0 17px;
+    background-color: rgb(3, 202, 3);
+    transform:rotate(0deg);
+    left:530px;
+    top:182px;
+}
+.leaf-2{
+    width:20px;
+    height:20px;
+    border-radius: 0 17px;
+    background-color: rgb(3, 202, 3);
+    transform:rotate(0deg);
+    left:530px;
+    top:158px;
+}
+.leaf-3{
+    width:20px;
+    height:20px;
+    border-radius: 0 17px;
+    background-color: rgb(3, 202, 3);
+    transform:rotate(90deg);
+    left:553px;
+    top:170px;
+}
+.outer-clock{
+    width:80px;
+    height: 80px;
+    background-color: darkblue;
+    left:700px;
+    top:80px;
+    border-radius:10px;
+}
+.inner-clock{
+    width:70px;
+    height:70px;
+    background-color: white;
+    left:5px;
+    top:5px;
+    border-radius: 10px;
+}
+.circle-1{
+    width:3px;
+    height:3px;
+    background-color: black;
+    border-radius: 50%;
+    left:35px;
+    top:6px;
+}
+.circle-2{
+    width:3px;
+    height:3px;
+    background-color: black;
+    border-radius:50%;
+    left:8px;
+    top:37px;
+}
+.circle-3{
+    width:3px;
+    height:3px;
+    background-color: black;
+    border-radius:50%;
+    left:67px;
+    top:37px;
+}
+.circle-4{
+    width:3px;
+    height:3px;
+    background-color: black;
+    border-radius:50%;
+    left:36px;
+    top:68px;
+}
+.hand-1{
+    border:2px solid black;
+    height:24px;
+    left:35px;
+    top:12px;
+}
+.hand-2{
+    border:2px solid black;
+    height:18px;
+    left:46px;
+    top: 27px;
+    transform: rotate(90deg);
+}
+.sofa{
+    height: 130px;
+    width:220px;
+    background-color: darkblue;
+    left: 580px;
+    top: 350px;
+    border-radius:30px;
+}
+.seat{
+    height:50px;
+    width:230px;
+    background-color: rgb(44, 44, 255);
+    top:430px;
+    left:575px;
+    box-shadow:2px 10px rgb(131, 121, 121);
+    border-radius:8px;
+}
+.left-1{
+    height:76px;
+    width:37px;
+    background-color: rgb(44, 44, 255);
+    left:550px;
+    top:405px;
+    border-radius:8px;
+    transform: skew(16deg);
+}
+.right-1{
+    height:76px;
+    width:37px;
+    background-color: rgb(44, 44, 255);
+    left:788px;
+    top:404px;
+    border-radius:8px;
+    transform: skew(160deg);
+}
+.lamp{
+    border-bottom: 45px solid rgb(0, 180, 138);
+    border-left:8px solid transparent;
+    border-right: 8px solid transparent;
+    height:0;
+    width: 40px;
+    transform:rotate(0deg);
+    left:282px;
+    top:250px;
+}
+.mid-lamp{
+    height:70px;
+    width:16px;
+    background-color: blue;
+    left:11px;
+    top:44px;
+}
+.circle{
+    height:41px;
+    width: 41px;
+    background-color: blue;
+    left: -1px;
+    border-radius:50%;
+    top:45px;
+}
+.strand-1{
+    border: 1px solid black;
+    height: 60px;
+    top:45px;
+    left:190px;
+    transform:rotate(60deg);
+}
+.strand-2{
+    border: 1px solid black;
+    height:60px;
+    top:45px;
+    left:242px;
+    transform:rotate(120deg);
+}
+.inner-book-1,.inner-book-2,.inner-book-3,.inner-book-4{
+    height:10px;
+    width:10px;
+    background-color: rgb(160, 160, 160);
+    top:5px;
+    left:4px;
+}
+.line-1{
+    height:9px;
+    width:335px;
+    background-color: white;
+    top:491px;
+    left:57px;
+}
+.line-2{
+    height:0;
+    width:320px;
+    border-bottom:10px solid white;
+    border-left:10px solid transparent;
+    border-right: 10px solid transparent;
+    top:480px;
+    left:55px;
+}
+.line-3{
+    height:60px;
+    width:32px;
+    background-color: white;
+}

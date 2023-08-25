@@ -1,0 +1,443 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow:hidden;
+    padding: 0;
+    margin:0;
+
+}
+
+*{
+    position:absolute;
+}
+
+.box{
+    height:80%;
+    width:80%;
+    top:70px;
+    left:150px;
+    animation: sky 6s 3s forwards;
+    background-color: rgb(255, 255, 203);
+    
+
+}
+@keyframes sky{
+    25%{
+        background-color: #ffd700;
+    }
+    45%{
+        background-color: #ffb90f
+    }
+    65%{
+        background-color:#b39800 ;
+    }
+    85%{
+        background-color:#3e0878 ;
+    }
+}
+.cloud-elements{
+    position: fixed;
+    z-index: 0;
+}
+.container-elements{
+    position: relative;
+    z-index:1;
+}
+.road{
+    height:154px;
+    width:1230px;
+    background-image:linear-gradient(rgb(99, 98, 98),rgb(187, 185, 185));
+    top:455px;
+}
+.dash-1{
+    height:10px;
+    width:228px;
+    background-color: rgb(240, 212, 0);
+    top:70px;
+
+}
+.dash-2{
+    height:10px;
+    width:288px;
+    background-color: rgb(240, 212, 0);
+    top:70px;
+    left:300px;
+}
+.dash-3{
+    height:10px;
+    width:278px;
+    background-color: rgb(240, 212, 0);
+    top:70px;
+    left:670px;
+}
+.dash-4{
+    height:10px;
+    width:200px;
+    background-color: rgb(240, 212, 0);
+    top:70px;
+    left:1030px;
+}
+.bottom-border{
+    height:10px;
+    width:100%;
+    background-color: rgb(224, 221, 221);
+    top:448px;
+}
+.top-border{
+    height:10px;
+    width:100%;
+    background-color: white;
+    top: 440px;
+}
+.sea{
+    height:160px;
+    width:100%;
+    background-color:rgb(6, 163, 161);
+    top:280px;
+}
+.coconut-branch-1{
+    height:100px;
+    width:190px;
+    border:solid 11px brown;
+    border-color: rgb(164, 74, 0) transparent transparent transparent;
+    border-radius: 50%/60px 60px 0 0;
+    top:320px;
+    transform:rotate(270deg);
+    left:140px;
+}
+.leaf-1{
+    width:55px;
+    height:55px;
+    border-radius: 0 55px;
+    background-color: rgb(0, 195, 0);
+    transform:rotate(120deg);
+    left: 142px;
+    top:280px;
+}
+.leaf-2{
+    width:55px;
+    height:55px;
+    border-radius: 0 55px;
+    background-color: rgb(0, 153, 0);
+    transform:rotate(180deg);
+    left: 158px;
+    top:242px;
+}
+.leaf-3{
+    width:55px;
+    height:55px;
+    border-radius: 0 55px;
+    background-color: rgb(0, 195, 0);
+    transform:rotate(60deg);
+    left: 198px;
+    top:236px;
+}
+.leaf-4{
+    width:55px;
+    height:55px;
+    border-radius: 0 55px;
+    background-color: rgb(0, 153, 0);
+    transform:rotate(120deg);
+    left: 223px;
+    top:265px;
+}
+.leaf-5{
+    width:55px;
+    height:55px;
+    border-radius: 0 55px;
+    background-color: rgb(0, 195, 0);
+    transform:rotate(185deg);
+    left: 202px;
+    top:300px;
+}
+.land{
+    width:120px;
+    height:35px;
+    background-color: rgb(255, 234, 0);
+    border-radius:100px 100px 0 0;
+    top:245px;
+    left:1050px;
+}
+.coconut-2{
+    height:40px;
+    width:120px;
+    border:solid 9px brown;
+    border-color: rgb(164, 74, 0) transparent transparent transparent;
+    border-radius: 50%/60px 60px 0 0;
+    top:160px;
+    transform:rotate(90deg);
+    left:1030px;
+}
+.leaf-6{
+    width:35px;
+    height:35px;
+    border-radius: 0 35px;
+    background-color: rgb(0, 153, 0);
+    transform:rotate(90deg);
+    left: 1076px;
+    top: 145px;
+}
+.leaf-7{
+    width:35px;
+    height:35px;
+    border-radius: 0 35px;
+    background-color: rgb(0, 195, 0);
+    transform:rotate(147deg);
+    left: 1070px;
+    top:120px;
+
+}
+.leaf-8{
+    width:35px;
+    height:35px;
+    border-radius: 0 35px;
+    background-color: rgb(0, 153, 0);
+    transform:rotate(28deg);
+    left: 1088px;
+    top:105px;
+}
+.leaf-9{
+    width:35px;
+    height:35px;
+    border-radius: 0 35px;
+    background-color: rgb(0, 195, 0);
+    transform:rotate(90deg);
+    left: 1113px;
+    top: 115px;
+}
+.leaf-10{
+    width:35px;
+    height:35px;
+    border-radius: 0 35px;
+    background-color: rgb(0, 153, 0);
+    transform:rotate(170deg);
+    left: 1112px;
+    top:145px;
+}
+.cloud-1{
+    height:90px;
+    width:90px;
+    background-color: rgb(228, 226, 226);
+    border-radius: 50%;
+    top:210px;
+    left:230px;
+    opacity:70%;
+}
+.cloud-2{
+    height:210px;
+    width:210px;
+    background-color: rgb(228, 226, 226);
+    border-radius:50%;
+    left:290px;
+    top:120px;
+    opacity:94%;
+}
+.cloud-3{
+    height:60px;
+    width:60px;
+    background-color: rgb(228, 226, 226);
+    border-radius: 50%;
+    top:234px;
+    left:480px;
+    opacity:75%;
+
+}
+.cloud-4{
+    height:50px;
+    width:50px;
+    background-color: rgb(228, 226, 226);
+    border-radius: 50%;
+    top:250px;
+    left:530px;
+}
+.cloud-5{
+    height:150px;
+    width:150px;
+    background-color: rgb(228, 226, 226);
+    border-radius: 50%;
+    top:170px;
+    left:570px;
+}
+.cloud-6{
+    height:110px;
+    width:110px;
+    background-color: rgb(228, 226, 226);
+    border-radius: 50%;
+    top:210px;
+    left:710px;
+}
+.bottom-car{
+    height:30px;
+    width:125px;
+    background-color: yellow;
+    left:330px;
+    top:10px;
+    box-shadow:5px 5px rgb(68, 68, 68);
+}
+.outer-wheel-1{
+    height:31px;
+    width:31px;
+    background-color: black;
+    border-radius:50%;
+    top:18px;
+    left:12px;
+}
+.inner-wheel-1{
+    height:21px;
+    width:21px;
+    background-color: white;
+    border-radius:50%;
+    top:5px;
+    left:5px;
+    animation-name:mymove;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+    animation:mymove 5s infinite;
+}
+@keyframes mymove{
+    from{
+        transform:rotate(0deg)
+    }
+    to{
+        transform:rotate(360deg)
+    }
+}
+.outer-wheel-2{
+    height:31px;
+    width:31px;
+    background-color: black;
+    border-radius:50%;
+    top:18px;
+    left:82px;
+}
+.inner-wheel-2{
+    height:21px;
+    width:21px;
+    background-color: white;
+    border-radius:50%;
+    top:5px;
+    left:5px;
+    animation-name:mymove-1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+    animation:mymove-1 5s infinite;
+}
+@keyframes mymove-1{
+    from{
+        transform:rotate(0deg)
+    }
+    to{
+        transform:rotate(360deg)
+    }
+}
+.upper-car{
+    height:0px;
+    width:70px;
+    border-bottom: 50px solid yellow;
+    border-left: 20px solid transparent;
+    border-right:20px solid transparent;
+    bottom:32px;
+    position: relative;
+    z-index:1;
+    left:5px;
+}
+.mirror-1{
+    height:26px;
+    width:26px;
+    background-color: gray;
+    top:4px;
+    left:4px;
+}
+.mirror-2{
+    height:26px;
+    width:26px;
+    background-color: gray;
+    top:4px;
+    left:40px;
+}
+.red-light{
+    height:7px;
+    width:11px;
+    background-color: red;
+}
+.front-light{
+    height:18px;
+    width:7px;
+    background-color: lightyellow;
+    left:125px;
+    top:5px;
+}
+.inner-wheel-triangle,.inner-wheel-triangle-2{
+    width:0;
+    height:0px;
+    border:5px solid transparent;
+    border-right:5px solid transparent;
+    border-bottom: 10px solid black;
+    left:5px;
+    top:7px;
+}
+.inner-wheel-triangle-upper,.inner-wheel-triangle-upper-2{
+    width:0;
+    height:0px;
+    border:5px solid transparent;
+    border-right:5px solid transparent;
+    border-bottom: 10px solid black;
+    left:5px;
+    top:0px;
+    transform: rotate(180deg);
+}
+.car{
+    position: relative;
+    z-index:1;
+    left:-300px;
+    animation-name:drive;
+    animation-duration: 9s;
+    animation-iteration-count:1;
+    animation-timing-function: linear;
+}
+@keyframes drive{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(1070px);
+    }
+}
+.sun{
+    height:85px;
+    width: 85px;
+    background-color: rgb(255, 242, 0);
+    border-radius:50%;
+    left:60px;
+    top:50px;
+    position: absolute;
+    box-shadow: 0px 0px 14px 3px rgb(255,242,0);
+    animation:sunset 12s forwards;
+
+}
+@keyframes sunset{
+    100%{
+        transform:translateY(400px);
+    }
+}
+.moon{
+    background-color: transparent;
+    height:80px;
+    width:80px;
+    border-radius:50%;
+    box-shadow: -11px -7px white;
+    position: absolute;
+    left:80px;
+    top:60px;
+    transform:rotate(-80deg);
+    opacity:0;
+    animation:night 0.5s 5s forwards;
+    
+}
+@keyframes night{
+    100%{
+        opacity:1;
+    }
+}
